@@ -1,0 +1,49 @@
+{
+  "name": "Vishmi Bhagya",
+  "logo":"VISHMII",
+  "title": "MERN Stack Developer",
+  "bio": "A passionate MERN stack developer building reusable and open-source portfolio templates with modern technologies.",
+  "long bio":"I’m Vishmi Bhagya, an aspiring data scientist and full-stack developer with a passion for blending creativity and technology to build impactful solutions. Skilled in Python, R, Java, Kotlin, and the MERN stack, I enjoy tackling challenges that require both analytical thinking and innovative design. My work is driven by a commitment to creating intuitive, user-friendly applications while continuously expanding my technical expertise. Outside of coding, I’m a cat lover and fitness enthusiast who values curiosity, adaptability, and the opportunity to contribute to projects that inspire and create positive change.",
+  "avatar": "/assets/profile2.jpeg", 
+  "cvDownloadLink": "/assets/cv.pdf",
+  "noResearchProjects":"3",
+  "yearsLearning":"3",
+  "projects": [
+    {
+      "title": "Open Source Portfolio",
+      "description": "A clean, responsive, and customizable portfolio template built using the MERN stack, featuring JSON-driven configuration and Tailwind styling.",
+      "link": "https://github.com/vishmi11/my-portfolio",
+      "techStack": ["React", "TailwindCSS", "Node.js"],
+      "image":"/assets/PortfolioImage.png"
+    },
+    {
+  "title": "Furniture Manufacturing & Retail System",
+  "description": "A comprehensive MERN stack application for managing furniture manufacturing processes, including inventory, orders, and production workflows.",
+  "link": "https://github.com/AMODHYAJ/PDN_Furniture",
+  "techStack": ["MongoDB", "Express", "React", "Node.js"],
+  "image": "/assets/furniture-system.jpeg"
+},
+{
+  "title": "Travel App UI Design",
+  "description": "A sleek and modern UI design for a travel booking app, created using Figma, focusing on user-friendly navigation and appealing visuals.",
+  "link": "https://www.figma.com/design/X0pnPWw2wJFkSqtcS1UFm6/Travel-app?node-id=0-1&p=f&t=cLimh1J1RCwpnhaI-0",
+  "techStack": ["Figma", "UI/UX Design"],
+  "image": "/assets/travel-app-ui.png"
+}
+
+
+  ],
+  "skills": [
+    { "name": "React", "level": "Advanced" },
+    { "name": "Node.js", "level": "Intermediate" },
+    { "name": "Express", "level": "Intermediate" },
+    { "name": "MongoDB", "level": "Intermediate" },
+    { "name": "TailwindCSS", "level": "Advanced" }
+  ],
+  "contact": {
+    "email": "vishmibhagya886@gmail.com",
+    "phone": "+94 76 612 7886",
+    "linkedin": "https://www.linkedin.com/in/vishmi-bhagya-757a32373",
+    "github": "https://github.com/vishmi11"
+  }
+}
