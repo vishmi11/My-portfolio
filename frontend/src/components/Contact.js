@@ -25,7 +25,7 @@ const ContactMe = ({ theme }) => {
         }
 
         try {
-            const response = await fetch("http://localhost:5000/api/contact", {
+            const response = await fetch("/api/contact", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({
@@ -75,25 +75,34 @@ const ContactMe = ({ theme }) => {
                 </div>
 
                 {/* Contact Info Cards */}
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mb-12">
-                    {[
-                        { icon: FaEnvelope, label: "Email", value: portfolioData.contact.email, bg: "bg-blue-600", href: `mailto:${portfolioData.contact.email}` },
-                        { icon: FaPhoneAlt, label: "Phone", value: portfolioData.contact.phone, bg: "bg-green-600", href: `tel:${portfolioData.contact.phone}` },
-                        { icon: FaLinkedinIn, label: "LinkedIn", value: portfolioData.contact.linkedin, bg: "bg-blue-600", href: portfolioData.contact.linkedin },
-                        { icon: FaGithub, label: "GitHub", value: portfolioData.contact.github, bg: "bg-gray-700", href: portfolioData.contact.github },
-                    ].map(({ icon: Icon, label, value, bg, href }) => (
-                        <a key={label} href={href} target="_blank" rel="noopener noreferrer"
-                            className={`${cardBg} backdrop-blur-md rounded-lg p-6 flex items-center gap-5 hover:opacity-90 transition cursor-pointer`}>
-                            <div className={`flex items-center justify-center w-12 h-12 rounded-full ${bg} text-white text-xl`}>
-                                <Icon />
-                            </div>
-                            <div>
-                                <p className={`font-semibold ${textPrimary}`}>{label}</p>
-                                <p className={`${textSecondary} text-sm truncate max-w-xs`}>{value}</p>
-                            </div>
-                        </a>
-                    ))}
-                </div>
+<div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mb-12">
+  {[
+    { icon: FaEnvelope, label: "Email", value: portfolioData.contact.email, bg: "bg-blue-600", href: `mailto:${portfolioData.contact.email}` },
+    { icon: FaPhoneAlt, label: "Phone", value: portfolioData.contact.phone, bg: "bg-green-600", href: `tel:${portfolioData.contact.phone}` },
+    { icon: FaLinkedinIn, label: "LinkedIn", value: portfolioData.contact.linkedin, bg: "bg-blue-600", href: portfolioData.contact.linkedin },
+    { icon: FaGithub, label: "GitHub", value: portfolioData.contact.github, bg: "bg-gray-700", href: portfolioData.contact.github },
+  ].map(({ icon: Icon, label, value, bg, href }) => (
+    <a
+      key={label}
+      href={href}
+      target="_blank"
+      rel="noopener noreferrer"
+      className={`${cardBg} backdrop-blur-md rounded-lg p-6 flex items-center gap-5 hover:opacity-90 transition cursor-pointer`}
+    >
+      <div
+        className={`flex items-center justify-center w-12 h-12 rounded-full ${bg} text-white`}
+      >
+        <Icon className="w-6 h-6" style={{ display: "block" }} /> {/* Forces same visual size */}
+      </div>
+      <div>
+        <p className={`font-semibold ${textPrimary}`}>{label}</p>
+        <p className={`${textSecondary} text-sm truncate max-w-xs`}>{value}</p>
+      </div>
+    </a>
+  ))}
+</div>
+
+
 
                 {/* Contact Form */}
                 <form onSubmit={handleSubmit} className={`${cardBg} backdrop-blur-md rounded-lg p-8 max-w-xl mx-auto`}>
