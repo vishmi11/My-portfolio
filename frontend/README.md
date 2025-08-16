@@ -39,29 +39,59 @@ This portfolio project is designed to showcase personal skills, projects, and co
 
 Follow these steps to run the project locally:
 
-1. **Clone the repository**  
-
 ```bash
+# 1. Clone the repository
 git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
 cd YOUR_REPO
 
-2. **Install dependencies**
-
+# 2. Install dependencies
 npm install
 
-3. **Run the development server**
-
+# 3. Run the development server
 npm start
 
-4. **Build for production**
-
+# 4. Build for production
 npm run build
 
-5. Open http://localhost:3000 in your browser to view the portfolio.
+# 5. Open http://localhost:3000 in your browser to view the portfolio.
 
 ## Customization
 
-You can customize the portfolio by editing the configuration file config/portfolioData.json
+You can customize the portfolio by editing the configuration file `config/portfolioData.json`. This allows you to update your personal info, skills, projects, and contact details.  
+
+**Skill Icons Mapping:**  
+
+If you want to add new skills, the icons are mapped in the frontend using a predefined set. To ensure new skills display correctly:
+
+- Open `Skills.js` in `components/`
+- Update the `skillIcons` object with the new skill name and corresponding React Icon component
+- Example format: `"Skill Name": IconComponent`
+
+This ensures new skills added in `portfolioData.json` display with the correct icon and progress bar.
+
+**Backend & Environment Variables (Optional for Contact Form)**
+
+The contact form requires a backend server to send emails. In this project, a **serverless function** is used for sending emails via **Nodemailer**.  
+
+To enable the contact form on your deployment (e.g., Vercel), you need to add the following environment variables:
+
+| Variable      | Description                              |
+|---------------|------------------------------------------|
+| `SMTP_HOST`   | SMTP server host (e.g., smtp.gmail.com)  |
+| `SMTP_PORT`   | SMTP server port (e.g., 465 for SSL)    |
+| `EMAIL_USER`  | Your email address used to send emails   |
+| `EMAIL_PASS`  | Your email account password or app token |
+
+**Steps:**
+
+1. Go to your deployment platform (like Vercel).
+2. Navigate to your project’s **Settings → Environment Variables**.
+3. Add each variable with the appropriate value.
+4. Redeploy your project for changes to take effect.
+
+> **Note:** These environment variables are only needed for the contact form functionality. The frontend will work without them, but emails won’t be sent.
+
+
 
 ## Features
 
@@ -79,32 +109,30 @@ You can customize the portfolio by editing the configuration file config/portfol
 
 ## Contribution Guidelines
 
-This project is open-source. Contributions are welcome!
+> This project is open-source. Contributions are welcome!
 
-Fork the repository
+# 1. Fork the repository
+# 2. Create a new branch for your feature or fix
+git checkout -b feature-name
 
-Create a new branch for your feature or fix (git checkout -b feature-name)
+# 3. Commit your changes
+git commit -m "Add feature"
 
-Commit your changes (git commit -m "Add feature")
+# 4. Push to your branch
+git push origin feature-name
 
-Push to your branch (git push origin feature-name)
-
-Open a Pull Request and describe your changes
-
-## Screenshots / Demo
-
-
+# 5. Open a Pull Request describing your changes
 
 
+## Demo
+
+https://my-portfolio-navy-mu-69.vercel.app/
 
 
 ##Author
 
 Name: E A Vishmi Bhagya Edirisinghe
-
 Email: vishmibhagya886@gmail.com
-
 GitHub: https://github.com/vishmi11
-
 LinkedIn: https://www.linkedin.com/in/vishmi-bhagya-757a32373
 
