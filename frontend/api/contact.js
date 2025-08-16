@@ -1,7 +1,8 @@
 import nodemailer from "nodemailer";
 
 export default async function handler(req, res) {
-  if (req.method !== "POST") return res.status(405).json({ error: "Method not allowed" });
+  if (req.method !== "POST") 
+    return res.status(405).json({ error: "Method not allowed" });
 
   const { name, senderEmail, subject, message } = req.body;
 
@@ -9,11 +10,11 @@ export default async function handler(req, res) {
     const transporter = nodemailer.createTransport({
       host: process.env.SMTP_HOST,
       port: Number(process.env.SMTP_PORT),
-      secure: true,
+      secure: process.env.SMTP_PORT === "465", // true for SSL
       auth: {
         user: process.env.EMAIL_USER,
-        pass: process.env.EMAIL_PASS
-      }
+        pass: process.env.EMAIL_PASS,
+      },
     });
 
     await transporter.sendMail({
@@ -21,7 +22,7 @@ export default async function handler(req, res) {
       to: process.env.EMAIL_USER,
       subject: subject || `New message from ${name}`,
       text: message,
-      html: `<p>${message}</p><p>From: ${name} (${senderEmail})</p>`
+      html: `<p>${message}</p><p>From: ${name} (${senderEmail})</p>`,
     });
 
     res.status(200).json({ success: true });
