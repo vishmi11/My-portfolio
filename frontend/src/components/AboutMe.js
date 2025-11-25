@@ -50,12 +50,11 @@ const AboutMe = ({ theme }) => {
                     </motion.span>
 
                     <h1 className="text-2xl md:text-3xl font-extrabold leading-tight">
-                        I AM AVAILABLE FOR{" "}
                         <span className={theme === "dark" ? "text-[#5ea6ff]" : "text-blue-600"}>
-                            {portfolioData.title || "UI UX DESIGN"}
-                        </span>{" "}
-                        PROJECT
+                            {portfolioData.aboutme || "Passionate about Data Science and Development"}
+                        </span>
                     </h1>
+
 
                     <p className={`text-xs md:text-sm mt-4 leading-relaxed max-w-md
             ${theme === "dark" ? "text-[#a0b0c2]" : "text-gray-700"}`}

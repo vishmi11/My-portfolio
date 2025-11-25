@@ -72,6 +72,8 @@ This ensures new skills added in `portfolioData.json` display with the correct i
 **Backend & Environment Variables (Optional for Contact Form)**
 
 The contact form requires a backend server to send emails. In this project, a **serverless function** is used for sending emails via **Nodemailer**.  
+You only need to update the fetching URL in the frontend if you host the backend separately which I already have implemented here (instead of using the default serverless function).
+
 
 To enable the contact form on your deployment (e.g., Vercel), you need to add the following environment variables:
 

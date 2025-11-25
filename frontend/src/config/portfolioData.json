@@ -1,9 +1,10 @@
 {
   "name": "Vishmi Bhagya",
   "logo":"VISHMII",
-  "title": "MERN Stack Developer",
-  "bio": "A passionate MERN stack developer building reusable and open-source portfolio templates with modern technologies.",
-  "long bio":"I’m Vishmi Bhagya, an aspiring data scientist and full-stack developer with a passion for blending creativity and technology to build impactful solutions. Skilled in Python, R, Java, Kotlin, and the MERN stack, I enjoy tackling challenges that require both analytical thinking and innovative design. My work is driven by a commitment to creating intuitive, user-friendly applications while continuously expanding my technical expertise. Outside of coding, I’m a cat lover and fitness enthusiast who values curiosity, adaptability, and the opportunity to contribute to projects that inspire and create positive change.",
+  "title": ["MERN Stack Developer", "Data Analyst", "UI/UX Enthusiast"],
+  "bio": "A passionate Data Science enthusiast building data-driven solutions and analytical projects using Python, R, and modern data technologies.",
+  "aboutme": "Exploring data-driven opportunities and developing innovative applications that bridge technology and creativity.",
+  "long bio":"I’m Vishmi Bhagya, an aspiring data scientist with a strong background in full-stack development, UI/UX design, and mobile app development. Skilled in Python, R, Java, Kotlin, and the MERN stack, I enjoy blending creativity and technology to build impactful, user-friendly solutions. Currently, my focus is on Data Science projects, exploring data-driven insights and analytical challenges. Beyond coding, I’m a cat lover and fitness enthusiast who values curiosity, adaptability, and contributing to projects that inspire positive change.",
   "avatar": "/assets/profile2.jpeg", 
   "cvDownloadLink": "/assets/cv.pdf",
   "noResearchProjects":"3",
@@ -29,17 +30,63 @@
   "link": "https://www.figma.com/design/X0pnPWw2wJFkSqtcS1UFm6/Travel-app?node-id=0-1&p=f&t=cLimh1J1RCwpnhaI-0",
   "techStack": ["Figma", "UI/UX Design"],
   "image": "/assets/travel-app-ui.png"
-}
+},
+{
+    "title": "SecureBank AI – Credit Card Fraud Detection System",
+    "description": "A group project for the module FDM focused on building an end-to-end machine learning pipeline for credit card fraud detection. The system includes robust data preprocessing, feature engineering, and model development using algorithms such as Isolation Forest, Random Forest, and Logistic Regression. Achieved strong performance across key metrics including precision, recall, F1-score, and AUC. The solution also incorporates anomaly detection, model evaluation dashboards, and a scalable architecture suitable for banking environments.",
+    "link": "https://github.com/AMODHYAJ/Y3S1-Credit-Card-Fraud-Detection",
+    "techStack": ["Python", "Scikit-learn", "Pandas", "NumPy", "Matplotlib", "Machine Learning"],
+    "image": "/assets/securebank-ai.png"
+  },
+  {
+    "title": "MintLine – Personal Finance Tracker",
+    "description": "A mobile application designed to help users track their income, expenses, and savings with a simple and intuitive interface. Users can record transactions, set monthly budgets, analyze category-wise spending, and receive smart notifications. Key features include add/edit/delete transactions, category-wise spending analysis, monthly budget alerts, data persistence using SharedPreferences, internal storage backup & restore, push notifications, and a clean UI/UX with bottom navigation.",
+    "link": "https://github.com/vishmi11/PersonalFinanceTracker",
+    "techStack": ["Kotlin", "Android Studio", "XML Layouts", "SharedPreferences", "Internal Storage", "Notification Manager"],
+    "image": "/assets/mintline-app.png"
+  },
+  {
+    "title": "Fashion Store Website",
+    "description": "Designed and developed a fashion retail website using HTML, CSS, JavaScript, and PHP. Features included a visually appealing homepage and product catalog, product detail pages with dynamic styling, a simple PHP-based admin panel for product management, responsive design, and interactive features for a smooth user experience.",
+    "link": "https://github.com/vishmi11/FashionStore",
+    "techStack": ["HTML", "CSS", "JavaScript", "PHP", "Responsive Web Design"],
+    "image": "/assets/fashion-store.png"
+  }
 
 
   ],
-  "skills": [
-    { "name": "React", "level": "Advanced" },
-    { "name": "Node.js", "level": "Intermediate" },
-    { "name": "Express", "level": "Intermediate" },
-    { "name": "MongoDB", "level": "Intermediate" },
-    { "name": "TailwindCSS", "level": "Advanced" }
-  ],
+
+  "skills": {
+    "Frontend Development": [
+      { "name": "React", "level": "Advanced" },
+      { "name": "CSS", "level": "Advanced" },
+      { "name": "JavaScript", "level": "Advanced" },
+      { "name": "HTML", "level": "Advanced" },
+      { "name": "TailwindCSS", "level": "Intermediate" }
+    ],
+    "Backend Development": [
+      { "name": "Node.js", "level": "Intermediate" },
+      { "name": "MongoDB", "level": "Intermediate" },
+      { "name": "Next.js", "level": "Intermediate" }
+    ],
+    "Mobile Application Development": [
+      { "name": "Kotlin", "level": "Intermediate" },
+      { "name": "Figma", "level": "Intermediate" }
+    ],
+    "Version Control": [
+      { "name": "Git", "level": "Advanced" }
+    ],
+    "Programming": [
+      { "name": "Python", "level": "Advanced" },
+      { "name": "R", "level": "Intermediate" },
+      { "name": "Java", "level": "Intermediate" },
+      { "name": "C++", "level": "Intermediate" }
+    ],
+    "Cloud Computing": [
+      { "name": "AWS", "level": "Intermediate" },
+      { "name": "Microsoft Azure", "level": "Intermediate" }
+    ]
+  },
   "contact": {
     "email": "vishmibhagya886@gmail.com",
     "phone": "+94 76 612 7886",

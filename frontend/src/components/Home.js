@@ -34,25 +34,30 @@ const Home = ({ theme }) => {
         </span>
 
         <h1 className="text-4xl font-extrabold leading-tight min-h-[4rem]">
-          <span className={theme === 'dark' ? 'text-white' : 'text-gray-900'}>
-            <Typewriter
-              words={[`I’m ${portfolioData.name}`]}
-              loop={1}
-              typeSpeed={100}
-              deleteSpeed={50}
-              delaySpeed={1500}
-              cursor
-              cursorStyle="|"
-            />
-          </span>
+          <motion.span
+            className={theme === 'dark' ? 'text-white' : 'text-gray-900'}
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1, ease: 'easeOut' }}
+          >
+            I’m {portfolioData.name}
+          </motion.span>
         </h1>
+
 
         <h2
           className={`text-3xl font-extrabold leading-tight
             ${theme === 'dark' ? 'text-[#1E3A8A]' : 'text-blue-600'}`}
         >
-          I'M A {portfolioData.title.toUpperCase()}
-          <span className="animate-pulse">|</span>
+          I'M A <Typewriter
+            words={portfolioData.title.map(t => t.toUpperCase())} // rotate through titles
+            loop={0} // 0 for infinite loop
+            typeSpeed={100}
+            deleteSpeed={50}
+            delaySpeed={1500}
+            cursor
+            cursorStyle="|"
+          />
         </h2>
 
         <p className={`text-sm max-w-md leading-relaxed ${theme === 'dark' ? 'text-white/80' : 'text-gray-700'}`}>
