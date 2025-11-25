@@ -57,40 +57,103 @@
   ],
 
   "skills": {
-    "Frontend Development": [
-      { "name": "React", "level": "Advanced" },
-      { "name": "CSS", "level": "Advanced" },
-      { "name": "JavaScript", "level": "Advanced" },
-      { "name": "HTML", "level": "Advanced" },
-      { "name": "TailwindCSS", "level": "Intermediate" }
-    ],
-    "Backend Development": [
-      { "name": "Node.js", "level": "Intermediate" },
-      { "name": "MongoDB", "level": "Intermediate" },
-      { "name": "Next.js", "level": "Intermediate" }
-    ],
-    "Mobile Application Development": [
-      { "name": "Kotlin", "level": "Intermediate" },
-      { "name": "Figma", "level": "Intermediate" }
-    ],
-    "Version Control": [
-      { "name": "Git", "level": "Advanced" }
-    ],
-    "Programming": [
-      { "name": "Python", "level": "Advanced" },
-      { "name": "R", "level": "Intermediate" },
-      { "name": "Java", "level": "Intermediate" },
-      { "name": "C++", "level": "Intermediate" }
-    ],
-    "Cloud Computing": [
-      { "name": "AWS", "level": "Intermediate" },
-      { "name": "Microsoft Azure", "level": "Intermediate" }
-    ]
-  },
+  "Frontend Development": [
+    { "name": "React" },
+    { "name": "CSS" },
+    { "name": "JavaScript" },
+    { "name": "HTML" },
+    { "name": "TailwindCSS" }
+  ],
+  "Backend Development": [
+    { "name": "Node.js" },
+    { "name": "MongoDB" },
+    { "name": "Next.js" }
+  ],
+  "Mobile Application Development": [
+    { "name": "Kotlin" },
+    { "name": "Figma" }
+  ],
+  "Version Control": [
+    { "name": "Git" }
+  ],
+  "Programming": [
+    { "name": "Python" },
+    { "name": "R" },
+    { "name": "Java" },
+    { "name": "C++" }
+  ],
+  "Cloud Computing": [
+    { "name": "AWS" },
+    { "name": "Microsoft Azure" }
+  ]
+},
   "contact": {
     "email": "vishmibhagya886@gmail.com",
     "phone": "+94 76 612 7886",
     "linkedin": "https://www.linkedin.com/in/vishmi-bhagya-757a32373",
     "github": "https://github.com/vishmi11"
+  },
+
+  "honors": [
+  {
+    "title": "Dean’s List Award",
+    "issuer": "SLIIT",
+    "date": "May 2025",
+    "logo": "/assets/sliit-logo.png",
+    "description": "Awarded for maintaining a GPA of 3.88 in the first semester of Year 2."
+  },
+  {
+    "title": "Dean’s List Award",
+    "issuer": "SLIIT",
+    "date": "Oct 2024",
+    "logo": "/assets/sliit-logo.png",
+    "description": "Awarded for maintaining a GPA of 3.76 in the second semester of Year 1."
+  },
+  {
+    "title": "Dean’s List Award",
+    "issuer": "SLIIT",
+    "date": "May 2024",
+    "logo": "/assets/sliit-logo.png",
+    "description": "Awarded for maintaining a GPA of 3.75 in the first semester of Year 1."
   }
+],
+  "certifications": [
+  {
+    "title": "AWS SimuLearn: Core Security Concepts",
+    "issuer": "Amazon Web Services (AWS)",
+    "date": "Oct 2025",
+    "logo": "/assets/aws-logo.png",
+    "credential": "https://1drv.ms/b/c/6ff3a26a598e39d5/ES5JSyCw2stAkYDEN_x7LkUB4Ch9fRCWqS8YKSq4lUKyRw?e=dheUi3"
+  },
+  {
+    "title": "Describe Azure identity, access, and security",
+    "issuer": "Microsoft Azure",
+    "date": "Oct 2025",
+    "logo": "/assets/azure-logo.png",
+    "credential": "https://1drv.ms/i/c/6ff3a26a598e39d5/ERnBiHPy9_9FsIMUU5j20sUByyGX4FQHPaPb9u8PB2QbRQ?e=cEr609"
+  },
+  {
+    "title": "AWS SimuLearn: Databases in Practice",
+    "issuer": "Amazon Web Services (AWS)",
+    "date": "Sep 2025",
+    "logo": "/assets/aws-logo.png",
+    "credential": "https://1drv.ms/b/c/6ff3a26a598e39d5/Ef--ZXiDZZlMvxA5JLE1BxIB6l9_SsPltcJT-JnVW1mTuA?e=35QPqd"
+  },
+  {
+    "title": "Explore relational database services in Azure",
+    "issuer": "Microsoft Azure",
+    "date": "Sep 2025",
+    "logo": "/assets/azure-logo.png",
+    "credential": "/https://1drv.ms/i/c/6ff3a26a598e39d5/EcrKutccnvdFvACB4N5l9vMBriYIqKnlkNbvbjLwyiV9gg?e=OScfLW"
+  },
+  {
+    "title": "AWS SimuLearn: Auto-Healing and Scaling Applications",
+    "issuer": "Amazon Web Services (AWS)",
+    "date": "Aug 2025",
+    "logo": "/assets/aws-logo.png",
+    "credential": "https://1drv.ms/b/c/6ff3a26a598e39d5/EXcKRgYRgv1Doz0GvIwUPqYBJKE39TBUBSAPdI96ZaURAA?e=at8o2c"
+  }
+  
+]
+
 }
