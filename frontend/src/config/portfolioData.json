@@ -38,6 +38,13 @@
     "techStack": ["Python", "Scikit-learn", "Pandas", "NumPy", "Matplotlib", "Machine Learning"],
     "image": "/assets/securebank-ai.png"
   },
+{
+    "title": "Household Finance Management System – AI-Powered Web Application",
+    "description": "Developed a complete household finance management platform powered by a multi-agent architecture. Each agent handles a specialized task such as data collection, chart generation, and insight creation. The system automates categorization, analyzes user spending, and provides actionable financial guidance.",
+    "link": "https://github.com/AMODHYAJ/household_finance_app-final-.git",
+    "techStack": ["Python", "Flask", "HTML/CSS", "SQLite", "Multi-Agent Architecture", "Data Visualization"],
+    "image": "/assets/finance.png"
+  },
   {
     "title": "MintLine – Personal Finance Tracker",
     "description": "A mobile application designed to help users track their income, expenses, and savings with a simple and intuitive interface. Users can record transactions, set monthly budgets, analyze category-wise spending, and receive smart notifications. Key features include add/edit/delete transactions, category-wise spending analysis, monthly budget alerts, data persistence using SharedPreferences, internal storage backup & restore, push notifications, and a clean UI/UX with bottom navigation.",
@@ -152,6 +159,90 @@
     "date": "Aug 2025",
     "logo": "/assets/aws-logo.png",
     "credential": "https://1drv.ms/b/c/6ff3a26a598e39d5/EXcKRgYRgv1Doz0GvIwUPqYBJKE39TBUBSAPdI96ZaURAA?e=at8o2c"
+  },
+  {
+    "title": "AWS SimuLearn: Computing Solutions",
+    "issuer": "Amazon Web Services (AWS)",
+    "date": "Aug 2025",
+    "logo": "/assets/aws-logo.png",
+    "credential": "https://1drv.ms/b/c/6ff3a26a598e39d5/ES-eA78r_8NDhXdMu05IYPMBSnghHHIEao2dT0ZBIkse6A?e=874XgC"
+  },
+  {
+    "title": "AWS SimuLearn: Connecting VPCs",
+    "issuer": "Amazon Web Services (AWS)",
+    "date": "Aug 2025",
+    "logo": "/assets/aws-logo.png",
+    "credential": "https://1drv.ms/b/c/6ff3a26a598e39d5/EXvXZQZGJChDq7AOpuP6QDYBkgzPJRQWxSlT4FGoIbf-_Q?e=ldoZgz"
+  },
+  {
+    "title": "AWS SimuLearn: File Systems in the Cloud",
+    "issuer": "Amazon Web Services (AWS)",
+    "date": "Aug 2025",
+    "logo": "/assets/aws-logo.png",
+    "credential": "https://1drv.ms/b/c/6ff3a26a598e39d5/EWWGRnQCAkBHpftf9UOeq5YBx8eBU3FN_Prku3Xh2KtePA?e=VeRhl5"
+  },
+  {
+    "title": "AWS SimuLearn: Highly Available Web Applications",
+    "issuer": "Amazon Web Services (AWS)",
+    "date": "Aug 2025",
+    "logo": "/assets/aws-logo.png",
+    "credential": "https://1drv.ms/b/c/6ff3a26a598e39d5/EUzBoj9XrAdOr5iHG_cZLoUB1lGhM1YH7I0jgwrduvZX3Q?e=iOuEfS"
+  },
+  {
+    "title": "AWS SimuLearn: Networking Concepts",
+    "issuer": "Amazon Web Services (AWS)",
+    "date": "Aug 2025",
+    "logo": "/assets/aws-logo.png",
+    "credential": "https://1drv.ms/b/c/6ff3a26a598e39d5/EUOicT5V9dlMrxlOBE9ihdQBzoz-G0p31eauppiUkrJbTg?e=GJIJwj"
+  },
+  {
+    "title": "Add and size disks in Azure virtual machines",
+    "issuer": "Microsoft Azure",
+    "date": "Aug 2025",
+    "logo": "/assets/azure-logo.png",
+    "credential": "https://1drv.ms/i/c/6ff3a26a598e39d5/EZNtwSQL-WxJuHMdjmBdUbIB46WQRmjhoY3j0L0s-yRzzw?e=icWicU"
+  },
+  {
+    "title": "Configure Azure Blob Storage",
+    "issuer": "Microsoft Azure",
+    "date": "Aug 2025",
+    "logo": "/assets/azure-logo.png",
+    "credential": "https://1drv.ms/i/c/6ff3a26a598e39d5/EapSq88Xhg5BtXHQpux8KkMBBd5Ob9gHuoBB-rrnHjA2Gw?e=rbV4iQ"
+  },
+  {
+    "title": "Configure virtual machine availability",
+    "issuer": "Microsoft Azure",
+    "date": "Aug 2025",
+    "logo": "/assets/azure-logo.png",
+    "credential": "https://1drv.ms/i/c/6ff3a26a598e39d5/EQvu34Wk1sVDqcw-C9YDvfgBbKcAsbbZn1HODa_3d_WgVg?e=BavpE1"
+  },
+  {
+    "title": "Configure virtual networks",
+    "issuer": "Microsoft Azure",
+    "date": "Aug 2025",
+    "logo": "/assets/azure-logo.png",
+    "credential": "https://1drv.ms/i/c/6ff3a26a598e39d5/ETYEVRqGyDFKrXhF4KN-Q28BgmTAirOFJTrRszNjXHuNJA?e=7yzUD5"
+  },
+  {
+    "title": "Improve application scalability and resiliency by using Azure Load Balancer",
+    "issuer": "Microsoft Azure",
+    "date": "Aug 2025",
+    "logo": "/assets/azure-logo.png",
+    "credential": "https://1drv.ms/i/c/6ff3a26a598e39d5/EZdmqdqu39FIg1jiZWz8k4UB5Y4lDZWV-jadCzYCBKVE_w?e=PH9NOv"
+  },
+  {
+    "title": "Introduction to Amazon Simple Storage Service (S3)",
+    "issuer": "Amazon Web Services (AWS)",
+    "date": "Aug 2025",
+    "logo": "/assets/aws-logo.png",
+    "credential": "https://1drv.ms/b/c/6ff3a26a598e39d5/EaR-XZrapvpJuEhp2DbgkswBEgrIECfSKrQdHi4Y6hr_hw?e=yIMdXe"
+  },
+  {
+    "title": "Introduction to Azure virtual machines",
+    "issuer": "Microsoft Azure",
+    "date": "Aug 2025",
+    "logo": "/assets/azure-logo.png",
+    "credential": "https://1drv.ms/i/c/6ff3a26a598e39d5/EZ3k70PySpRFqCNF72mB_uoBdT-6cu2hwutyae2Rcx6iYA?e=MsD3ea"
   }
   
 ]
