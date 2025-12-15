@@ -58,8 +58,14 @@
     "link": "https://github.com/vishmi11/FashionStore",
     "techStack": ["HTML", "CSS", "JavaScript", "PHP", "Responsive Web Design"],
     "image": "/assets/fashion-store.png"
-  }
-
+  },
+  {
+  "title": "Police Education Data Analysis",
+  "description": "Performed exploratory data analysis (EDA) on police education–related data to uncover patterns, trends, and insights. The project involved data cleaning, preprocessing, descriptive analysis, and visualization to support data-driven conclusions. Emphasized analytical thinking, data interpretation, and clear visual communication using Python-based tools.",
+  "link": "https://github.com/vishmi11/Police_Education_Analysis",
+  "techStack": ["Python", "Pandas", "Matplotlib", "Jupyter Notebook", "Exploratory Data Analysis"],
+  "image": "/assets/police-education-analysis.png"
+}
 
   ],
 
