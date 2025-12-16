@@ -65,7 +65,15 @@
   "link": "https://github.com/vishmi11/Police_Education_Analysis",
   "techStack": ["Python", "Pandas", "Matplotlib", "Jupyter Notebook", "Exploratory Data Analysis"],
   "image": "/assets/police-education-analysis.png"
+},
+{
+  "title": "AI-Powered Resume Screener",
+  "description": "Developed an interactive AI Resume Screener that extracts text from PDF resumes, analyzes skills, and predicts the most suitable job roles using ML + NLP. Provides hybrid confidence scores, highlights matched and missing skills, and shows top keywords influencing predictions. Supports roles: Data Analyst, ML Engineer, Frontend Developer, Backend Developer, Mobile Developer. Other roles are currently not implemented.",
+  "link": "https://github.com/vishmi11/resume-screener",
+  "techStack": ["Python", "Streamlit", "Scikit-learn", "NLTK", "PyPDF2", "TF-IDF", "NLP"],
+  "image": "/assets/resume-screener.png"
 }
+
 
   ],
 
