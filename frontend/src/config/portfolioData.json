@@ -72,6 +72,13 @@
   "link": "https://github.com/vishmi11/resume-screener",
   "techStack": ["Python", "Streamlit", "Scikit-learn", "NLTK", "PyPDF2", "TF-IDF", "NLP"],
   "image": "/assets/resume-screener.png"
+},
+{
+  "title": "Equipment Maintenance & Performance Analysis",
+  "description": "Performed data cleaning and exploratory data analysis on a machine maintenance dataset. Built a professional Excel dashboard with interactive KPI cards (Total Observations, Total Failures, Failure Rate, Avg Tool Wear), pivot charts, slicers, and a vertical navigation bar to visualize trends, failures, and optimization opportunities. Insights support preventive maintenance and production efficiency decisions.",
+  "link": "https://github.com/vishmi11/Equipment_Maintenance_Analysis",
+  "techStack": ["Python", "Pandas", "Matplotlib", "Seaborn", "Excel", "Pivot Tables", "Slicers", "Dashboarding"],
+  "image": "/assets/dashboard.png"
 }
 
 
