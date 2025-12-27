@@ -1,39 +1,67 @@
 import React from "react";
 import { motion } from "framer-motion";
 import {
-    FaReact,
-    FaNodeJs,
-    FaDatabase,
-    FaCss3Alt,
-    FaJsSquare,
-    FaGitAlt,
-    FaHtml5,
-    FaAws,
-    FaCloud,
+  FaReact,
+  FaNodeJs,
+  FaDatabase,
+  FaCss3Alt,
+  FaJsSquare,
+  FaGitAlt,
+  FaHtml5,
+  FaAws,
+  FaCloud,
+  FaChartBar,
+  FaCalculator
 } from "react-icons/fa";
-import { SiTailwindcss, SiKotlin, SiFigma, SiPython, SiR, SiCplusplus } from "react-icons/si";
+
+import {
+  SiTailwindcss,
+  SiPython,
+  SiR,
+  SiCplusplus,
+  SiJavascript,
+  SiMongodb
+} from "react-icons/si";
+
 import portfolioData from "../config/portfolioData.json";
 
-// Map skill names to icons
+
 const skillIcons = {
-    React: FaReact,
-    "Node.js": FaNodeJs,
-    MongoDB: FaDatabase,
-    CSS: FaCss3Alt,
-    JavaScript: FaJsSquare,
-    Git: FaGitAlt,
-    HTML: FaHtml5,
-    TailwindCSS: SiTailwindcss,
-    "Next.js": FaNodeJs,
-    Kotlin: SiKotlin,
-    Figma: SiFigma,
-    AWS: FaAws,
-    "Microsoft Azure": FaCloud,
-    Python: SiPython,
-    R: SiR,
-    Java: FaJsSquare,
-    "C++": SiCplusplus,
+  // Data Science
+  Python: SiPython,
+  R: SiR,
+  SQL: FaDatabase,
+  "Data Cleaning & Preprocessing": FaCalculator,
+  "Exploratory Data Analysis (EDA)": FaChartBar,
+  "Statistical Analysis": FaCalculator,
+
+  // Machine Learning
+  "Supervised Learning": FaChartBar,
+  "Unsupervised Learning": FaChartBar,
+  "Regression Models": FaChartBar,
+  "Classification Models": FaChartBar,
+
+  // Programming
+  Java: FaJsSquare,
+  "C++": SiCplusplus,
+
+  // Web & Visualization
+  React: FaReact,
+  JavaScript: SiJavascript,
+  HTML: FaHtml5,
+  CSS: FaCss3Alt,
+  TailwindCSS: SiTailwindcss,
+
+  // Backend
+  "Node.js": FaNodeJs,
+  MongoDB: SiMongodb,
+
+  // Tools
+  Git: FaGitAlt,
+  AWS: FaAws,
+  "Microsoft Azure": FaCloud,
 };
+
 
 const Skills = ({ theme }) => {
     return (

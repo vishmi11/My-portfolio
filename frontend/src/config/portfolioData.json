@@ -85,34 +85,41 @@
   ],
 
   "skills": {
-  "Frontend Development": [
-    { "name": "React" },
-    { "name": "CSS" },
-    { "name": "JavaScript" },
-    { "name": "HTML" },
-    { "name": "TailwindCSS" }
+  "Data Science & Analytics": [
+    { "name": "Python" },
+    { "name": "R" },
+    { "name": "SQL" },
+    { "name": "Data Cleaning & Preprocessing" },
+    { "name": "Exploratory Data Analysis (EDA)" },
+    { "name": "Statistical Analysis" }
   ],
-  "Backend Development": [
-    { "name": "Node.js" },
-    { "name": "MongoDB" },
-    { "name": "Next.js" }
+  "Machine Learning Fundamentals": [
+    { "name": "Supervised Learning" },
+    { "name": "Unsupervised Learning" },
+    { "name": "Regression Models" },
+    { "name": "Classification Models" }
   ],
-  "Mobile Application Development": [
-    { "name": "Kotlin" },
-    { "name": "Figma" }
-  ],
-  "Version Control": [
-    { "name": "Git" }
-  ],
-  "Programming": [
+  "Programming Languages": [
     { "name": "Python" },
     { "name": "R" },
     { "name": "Java" },
     { "name": "C++" }
   ],
-  "Cloud Computing": [
-    { "name": "AWS" },
-    { "name": "Microsoft Azure" }
+  "Web & Visualization": [
+    { "name": "React" },
+    { "name": "JavaScript" },
+    { "name": "HTML" },
+    { "name": "CSS" },
+    { "name": "TailwindCSS" }
+  ],
+  "Backend & Databases": [
+    { "name": "Node.js" },
+    { "name": "MongoDB" }
+  ],
+  "Tools & Platforms": [
+    { "name": "Git" },
+    { "name": "Excel" },
+    { "name": "PowerPoint" }
   ]
 },
   "contact": {
