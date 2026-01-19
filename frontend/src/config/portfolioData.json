@@ -141,6 +141,13 @@
   {
     "title": "Dean’s List Award",
     "issuer": "SLIIT",
+    "date": "Jan 2026",
+    "logo": "/assets/sliit-logo.png",
+    "description": "Awarded for maintaining a GPA of 3.86 in the second semester of Year 2."
+  },
+  {
+    "title": "Dean’s List Award",
+    "issuer": "SLIIT",
     "date": "May 2025",
     "logo": "/assets/sliit-logo.png",
     "description": "Awarded for maintaining a GPA of 3.88 in the first semester of Year 2."
