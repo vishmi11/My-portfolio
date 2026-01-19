@@ -79,7 +79,15 @@
   "link": "https://github.com/vishmi11/Equipment_Maintenance_Analysis",
   "techStack": ["Python", "Pandas", "Matplotlib", "Seaborn", "Excel", "Pivot Tables", "Slicers", "Dashboarding"],
   "image": "/assets/dashboard.png"
+},
+{
+  "title": "Fitness Analytics Dashboard",
+  "description": "Designed and developed an interactive Power BI dashboard to analyze key fitness center metrics. The dashboard includes KPIs (Clients, Trainers, Revenue, Expenses), membership insights (Active vs Expired), client membership statuses, monthly client trends, and financial performance (Revenue, Expenses, Profit). Custom dark UI layout was designed using Figma and integrated into Power BI for a modern, app-style interface. This project demonstrates dashboard storytelling, DAX calculations, and clean data visualization techniques.",
+  "link": "https://1drv.ms/f/c/6ff3a26a598e39d5/IgB4-V63FGbOQKb7Bsixs52GAdlUc3a2nlA1A8NImt6jA50?e=4kpY7b",
+  "techStack": ["Power BI", "DAX", "Power Query", "Data Modeling", "Figma (UI Design)"],
+  "image": "/assets/fitness_dashboard.png"
 }
+
 
 
   ],
@@ -119,7 +127,7 @@
   "Tools & Platforms": [
     { "name": "Git" },
     { "name": "Excel" },
-    { "name": "PowerPoint" }
+    { "name": "PowerBI" }
   ]
 },
   "contact": {
