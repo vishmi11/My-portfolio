@@ -1,21 +1,30 @@
 {
   "name": "Vishmi Bhagya",
   "logo":"VISHMII",
-  "title": ["MERN Stack Developer", "Data Analyst", "UI/UX Enthusiast"],
-  "bio": "A passionate Data Science enthusiast building data-driven solutions and analytical projects using Python, R, and modern data technologies.",
+  "title": [ "Data Science Undergraduate", "Data Analyst", "Data Engineering Enthusiast", "UI/UX Enthusiast"],
+  "bio": "A Data Science undergraduate at SLIIT building data-driven solutions across analytics, machine learning, and cloud-based data engineering — backed by hands-on research experience.",
   "aboutme": "Exploring data-driven opportunities and developing innovative applications that bridge technology and creativity.",
-  "long bio":"I’m Vishmi Bhagya, an aspiring data scientist with a strong background in full-stack development, UI/UX design, and mobile app development. Skilled in Python, R, Java, Kotlin, and the MERN stack, I enjoy blending creativity and technology to build impactful, user-friendly solutions. Currently, my focus is on Data Science projects, exploring data-driven insights and analytical challenges. Beyond coding, I’m a cat lover and fitness enthusiast who values curiosity, adaptability, and contributing to projects that inspire positive change.",
+  "long bio":"I’m Vishmi Bhagya, an aspiring data scientist with a strong background in analytics, machine learning, and cloud-based data engineering. Skilled in Python, R, Java, Kotlin, and the MERN stack, I enjoy blending creativity and technology to build impactful, user-friendly solutions. Currently, my focus is on Data Science projects, exploring data-driven insights and analytical challenges. Beyond coding, I’m a cat lover and fitness enthusiast who values curiosity, adaptability, and contributing to projects that inspire positive change.",
   "avatar": "/assets/profile2.jpeg", 
   "cvDownloadLink": "/assets/cv.pdf",
   "noResearchProjects":"3",
   "yearsLearning":"3",
   "projects": [
     {
-      "title": "Open Source Portfolio",
-      "description": "A clean, responsive, and customizable portfolio template built using the MERN stack, featuring JSON-driven configuration and Tailwind styling.",
-      "link": "https://github.com/vishmi11/my-portfolio",
-      "techStack": ["React", "TailwindCSS", "Node.js"],
-      "image":"/assets/PortfolioImage.png"
+      "title": "Coffee Shop Data Warehouse & Business Intelligence Solution",
+      "description": "Designed an end-to-end Data Warehouse using the Kimball Star Schema with a central fact table, five dimension tables, and SCD Type 2 for customer history tracking. Built multi-source ETL pipelines in SSIS extracting from SQL Server, CSV, and TXT sources through a staging layer, and an SSAS OLAP Cube with multi-level hierarchies supporting roll-up, drill-down, slice, dice, and pivot. Published four Power BI reports with DAX measures, matrix views, cascading slicers, and drill-through capabilities.",
+      "link": "https://1drv.ms/u/c/6ff3a26a598e39d5/IQBbuAyQbambSoL7oGc_TK-vAQcyFkl_Vd05KjFXH8jP3W4?e=M8NXK2",
+      "techStack": [
+        "SQL Server",
+        "SSIS",
+        "SSAS",
+        "Power BI",
+        "Excel",
+        "T-SQL",
+        "DAX",
+        "SSMS"
+      ],
+      "image": "/assets/coffeeshop-dash.png"
     },
     {
   "title": "Furniture Manufacturing & Retail System",
